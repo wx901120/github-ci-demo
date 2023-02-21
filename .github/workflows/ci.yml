@@ -29,5 +29,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        run: echo ${{secrets}}
+        run: echo ${{secrets.ACCESS_TOKEN}}
 
